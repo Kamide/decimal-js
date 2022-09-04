@@ -6,8 +6,6 @@ It is implemented with `BigInt`, so there are no dependencies for arbitrary prec
 
 ## Examples
 
-`Decimal` is converted into `Rational` when dividing.
-
 ### Instantiation
 
 `decimal.js` exports `d`, a tag function for instantiating a `Decimal`.
@@ -43,6 +41,7 @@ assert(
 
 ### Lossless Division
 
+`Decimal` is converted into `Rational` when dividing.
 `Decimal` can be converted to `Rational` without precision loss but not the other way around.
 
 ```js
