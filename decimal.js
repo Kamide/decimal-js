@@ -2,7 +2,7 @@ import { abs, Integer, max, sign } from './integer.js';
 import { Rational } from './rational.js';
 
 /**
- * Represents an arbitrary precision that of the form
+ * Represents an arbitrary precision decimal of the form
  * ```js
  * 	digits * 10 ** -scale
  * ```
