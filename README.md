@@ -61,7 +61,7 @@ assert(!d`1`.dividedBy(d`3`).toDecimal().toRational().equalTo(r`1/3`));
 | Rational | 1/10 | 2/10 | 3/10                | 3/10 | true            |
 
 ```js
-import { d, r } from './rational.js';
+import { d, r } from './index.js';
 
 console.table({
 	Number: {
