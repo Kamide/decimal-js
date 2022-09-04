@@ -8,7 +8,7 @@ It is implemented with `BigInt`, so there are no dependencies for arbitrary prec
 
 ### Instantiation
 
-`decimal.js` exports `d`, a tag function for instantiating a `Decimal`.
+`decimal.js` exports `d`, a tag function, for instantiating a `Decimal`.
 It is preferred over the constructor.
 
 ```js

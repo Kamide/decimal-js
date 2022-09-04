@@ -7,7 +7,7 @@ import { Rational } from './rational.js';
  * 	digits * 10 ** -scale
  * ```
  * where `digits` is the signed integer representation
- * and `scale` is the number of that places.
+ * and `scale` is the number of decimal places.
  * @final
  */
 export class Decimal {
