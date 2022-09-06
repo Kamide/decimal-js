@@ -182,7 +182,7 @@ export class Rational {
 			s++;
 		}
 
-		return new Decimal(digits, scale);
+		return new Decimal(digits, s);
 	}
 
 	toJSON() {
